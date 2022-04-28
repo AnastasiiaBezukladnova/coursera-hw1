@@ -71,7 +71,7 @@ $(function() {
                 var homeHtmlToInsertIntoMainPage = insertProperty(homeHtml, "randomCategoryShortName",
                     "'" + chosenCategoryShortName + "'");
 
-                inserthtml("#main-content", homeHtmlToInsertIntoMainPage);
+                insertHtml("#main-content", homeHtmlToInsertIntoMainPage);
 
             },
             false);
